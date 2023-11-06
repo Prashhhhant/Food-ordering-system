@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: palevioletred;
+}
+
+.wel h1,p{
+    position: relative;
+    bottom: 115px;
+    font-style: italic;
+}
+.wel p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 70px;
+    font-family: "Brush Script MT";
+    position: relative;
+    bottom: 140px;
+}
+
+.SL input{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 120px;
+}
+ body p{
+     font-style: normal;
+     text-align: center;
+ }
+
+ input[type=button] {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, yellow, #d66113);
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}

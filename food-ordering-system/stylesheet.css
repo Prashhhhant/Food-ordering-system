@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    position: relative;
+    top: 330px;
+    font-size: xxx-large;
+    color: rgb(241, 235, 235);
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg{
+    
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1.6;
+}
+
+.menu img{
+    width: 450px;
+    height: 250px;
+    position: relative;
+    top: 350px;
+    margin: 30px;
+    padding: 0px;
+}
+
+.container input{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: 350px;
+}
+
+#zoomA {
+    /* (A) OPTIONAL DIMENSIONS */
+    width: 400px;
+    height: 250px;
+   
+    /* (B) ANIMATE ZOOM */
+    /* ease | ease-in | ease-out | linear */
+    transition: transform ease-in-out 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+#zoomA:hover { transform: scale(1.2); }
+
+nav{
+    background: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    /* line-height: 50px; */
+    position: relative;
+    top: -14px;
+    left: -14px;
+    padding: 0 1px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: gray;
+    transition: .5s;
+}
